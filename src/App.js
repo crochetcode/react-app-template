@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './reset.css';
+import styled from 'styled-components';
 
-function App() {
+const StyledDiv = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
+  box-sizing: border-box;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  h1 {
+    font-size: 2rem;
+  }
+`;
+
+export const App = () =>  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledDiv>
+        <h1>React App template</h1>
+    </StyledDiv>
   );
 }
-
-export default App;
