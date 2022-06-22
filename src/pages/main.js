@@ -15,7 +15,7 @@ const StyledDiv = styled.div`
   }
 `;
 
-export const Home = () => {
+export const Main = () => {
   return (
     <StyledDiv>
       <h1>React app template</h1>
