@@ -12,12 +12,13 @@ const StyledDiv = styled.div`
 
   h1 {
     font-size: 2rem;
-  }`;
+  }
+`;
 
 export const Home = () => {
-    return (
-        <StyledDiv>
-            <h1>React app template</h1>
-        </StyledDiv>
-    )
+  return (
+    <StyledDiv>
+      <h1>React app template</h1>
+    </StyledDiv>
+  );
 };
